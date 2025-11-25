@@ -195,7 +195,7 @@ const App = () => {
           <div className="w-48 h-48 md:w-64 md:h-64 relative flex-shrink-0">
             <div className="absolute inset-0 bg-gradient-to-tr from-blue-600 to-purple-600 rounded-full blur-lg opacity-50 animate-pulse"></div>
             <img 
-              src="./public/foto.jpg" 
+              src="/foto.jpg" 
               alt="Rebeca Cuesta" 
               className="relative w-full h-full rounded-full border-4 border-white shadow-xl object-cover bg-white"
             />
@@ -224,7 +224,7 @@ const App = () => {
             </div>
 
             <div className="flex flex-wrap justify-center md:justify-start gap-4">
-              <button onClick={() => window.open('./public/cv.pdf')} className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full font-medium transition-all shadow-lg shadow-blue-200 flex items-center gap-2">
+              <button onClick={() => window.open('/cv.pdf', '_blank')} className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full font-medium transition-all shadow-lg shadow-blue-200 flex items-center gap-2">
                 <Download size={20} /> Descargar CV PDF
               </button>
             </div>
