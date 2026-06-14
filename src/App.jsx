@@ -66,6 +66,12 @@ const App = () => {
 
   const experience = [
     {
+      role: "Desarrolladora full-stack (Prácticas Empresa)",
+      company: "Softeca",
+      period: "19/01/2026 - 07/04/2026",
+      description: "Desarrollo de aplicaciones web con .NET y Angular. Refactorización de aplicación existente y mejora de la experiencia de usuario."
+    },
+    {
       role: "Jugadora de Fútbol Profesional",
       company: "Burgos C.F.",
       period: "2025 - 2026",
